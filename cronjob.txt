@@ -1,0 +1,1 @@
+*/1 * * * * /usr/local/bin/python3.10 /django/manage.py send_daily_email >> /var/log/cron_test.log 2>&1
